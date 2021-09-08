@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <title>Courseflix - Plataforma de Cursos On-line</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Filmes</a>
+                <a href="#">Séries</a>
+                <a href="#">Documetários</a>
+                <a href="#">Assine já</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">MORTAL KOMBAT</h3>
+                <p class="descricao">O lutador de MMA Cole Young deve treinar para liberar seu verdadeiro poder para unir-se aos maiores campeões mundiais contra inimigos da Exoterra em uma batalha decisiva pelo universo.</p>
+
+                <div class="botoes">
+                    <button role="button"class="botao">
+                        <a href="https://www.youtube.com/embed/8Tk8sqXlogM" target="_blank" class="link"><i class="far fa-play-circle fa-1x">&NonBreakingSpace;</i>ASSISTIR AGORA</a>
+                    </button>
+                    <button role="button"class="botao" onclick="$('#fundo_modal-5').fadeIn()">
+                        <i class="fas fa-info-circle">&NonBreakingSpace;</i>MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="list-filmes">
+        <div class="carrossel-filmes">
+                <div class="item">
+                    <a href="javascript:;" onclick="$('#fundo_modal-1').fadeIn()" id="film-1"><img src="images/filme-1.jpg" class="box-filme" alt="" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href="javascript:;" onclick="$('#fundo_modal-2').fadeIn()" id="film-2"><img src="images/filme-2.jpg" class="box-filme" alt="" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href="javascript:;" onclick="$('#fundo_modal-3').fadeIn()" id="film-3"><img src="images/filme-3.jpg" class="box-filme" alt="" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href="javascript:;" onclick="$('#fundo_modal-4').fadeIn()" id="film-4"><img src="images/filme-4.jpg" class="box-filme" alt="" srcset=""></a>
+                </div>
+        </div>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/c93743c4bc.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>-->
+    <script src="js/app.js"></script> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>
